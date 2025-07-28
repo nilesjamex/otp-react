@@ -1,0 +1,41 @@
+{
+  "name": "otp-react",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && cpx src/styles.css dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilesjamex/otp-react.git"
+  },
+  "keywords": [
+    "react",
+    "otp",
+    "input",
+    "component",
+    "verification"
+  ],
+  "author": "Niles Jamex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nilesjamex/otp-react/issues"
+  },
+  "homepage": "https://github.com/nilesjamex/otp-react#readme",
+  "description": "A customizable, lightweight OTP input component for React.",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "cpx": "^1.5.0",
+    "typescript": "^5.8.3"
+  }
+}
