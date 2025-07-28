@@ -1,4 +1,4 @@
-# otp-react
+# input-otp-react
 
 A customizable, lightweight OTP input component for React with standalone CSS
 support.
@@ -8,13 +8,13 @@ support.
 Install via npm:
 
 ```bash
-npm install otp-react
+npm install input-otp-react
 ```
 
 or with yarn:
 
 ```bash
-yarn add otp-react
+yarn add input-otp-react
 ```
 
 ---
@@ -25,8 +25,8 @@ yarn add otp-react
 
 ```tsx
 import React from "react";
-import OtpInput from "otp-react";
-import "otp-react/dist/styles.css"; // Optional: Use built-in styles
+import OtpInput from "input-otp-react";
+import "input-otp-react/dist/styles.css"; // Optional: Use built-in styles
 
 const App = () => {
   const handleComplete = (otp: string) => {
@@ -64,7 +64,7 @@ This component comes with basic styles.
 ### Option 1: Use default styles
 
 ```tsx
-import "otp-react/dist/styles.css";
+import "input-otp-react/dist/styles.css";
 ```
 
 ### Option 2: Override with your own
@@ -105,8 +105,8 @@ You can also use `inputStyle` for inline styles:
 Clone the repo:
 
 ```bash
-git clone https://github.com/nilesjamex/otp-react.git
-cd otp-react
+git clone https://github.com/nilesjamex/input-otp-react.git
+cd input-otp-react
 npm install
 ```
 
@@ -133,7 +133,7 @@ Developed by [Niles Jamex](https://github.com/nilesjamex)
 ## 🐛 Issues & Feedback
 
 If you find a bug or want to suggest a feature, please
-[open an issue](https://github.com/nilesjamex/otp-react/issues).
+[open an issue](https://github.com/nilesjamex/input-otp-react/issues).
 
 ---
 
